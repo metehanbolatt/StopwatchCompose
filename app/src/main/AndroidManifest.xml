@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StopwatchCompose"
         tools:targetApi="31">
+        <service android:name=".service.StopwatchService"
+            android:enabled="true"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
